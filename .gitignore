@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+将删除 .gitignore
+将删除 .idea/gradle.xml
+将删除 .idea/inspectionProfiles/
+将删除 .idea/misc.xml
+将删除 .idea/modules.xml
+将删除 .idea/runConfigurations.xml
+将删除 app/.gitignore
+将删除 app/build.gradle
+将删除 app/libs/
+将删除 app/proguard-rules.pro
+将删除 app/src/
+将删除 build.gradle
+将删除 gradle.properties
+将删除 gradle/
+将删除 gradlew
+将删除 gradlew.bat
+将删除 settings.gradle
+将删除 libs/
+将删除 proguard-rules.pro
+将删除 src/

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.txs.multiplepicselect.MainActivity">
+    <TextView
+        android:background="#6CC4B8"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:text="图片长按多选"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/title"
+        android:id="@+id/rcv"
+        android:layout_above="@id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_activity_login"
+        android:visibility="gone"
+        android:textColor="#fff"
+        android:text="选中的数据"
+        android:id="@+id/btn"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</RelativeLayout>
