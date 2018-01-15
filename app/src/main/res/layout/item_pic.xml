@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"
-        android:background="@mipmap/imgv_fitness_gril"
         fresco:backgroundImage="@mipmap/imgv_fitness_gril"
         fresco:placeholderImage="@mipmap/imgv_fitness_gril"
         fresco:roundBottomLeft="false"
