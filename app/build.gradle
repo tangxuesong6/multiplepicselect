@@ -32,5 +32,4 @@ dependencies {
     //recyclerview
     implementation "com.android.support:design:$rootProject.supportLibraryVersion"
 
-
 }

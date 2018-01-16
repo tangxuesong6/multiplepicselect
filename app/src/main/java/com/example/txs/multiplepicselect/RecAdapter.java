@@ -44,7 +44,7 @@ public class RecAdapter extends RecyclerView.Adapter<RecAdapter.MyViewHolder> {
         this.list = list;
         this.screenWidth = screenWidth;
         //frasco 使用
-        uri = Uri.parse("res:///" + R.mipmap.imgv_fitness_gril);
+        uri = Uri.parse("res:///" + R.mipmap.imgv_fitness_girl);
     }
     public boolean isShowCheckBox() {
         return showCheckBox;
